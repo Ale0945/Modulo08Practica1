@@ -8,7 +8,7 @@ const Usuario = conexion.define("usuarios", {
         unique: true
 
     },
-    contraseña: {
+    contrasena: {
         type: Sequelize.STRING,
         allowNull: false,
 
